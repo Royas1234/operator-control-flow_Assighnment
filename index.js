@@ -20,9 +20,7 @@ let generalSubjects ="English, Mathematics";
 }
 determineSubject("ART");
 
-// let classSubject =  ;
-// console.log(classSubject);
-// console.log(   + determineSubject("ART"));
+
 
 
 // ---------------question 5--------------
@@ -34,9 +32,6 @@ determineSubject("ART");
 
 function highestPowerof2(num)
 {
-	// Invalid input
-	if (num< 1)
-		return 0;
 
 	let res = 1;
 
@@ -55,7 +50,6 @@ function highestPowerof2(num)
 	return res;
 }
 
-// Driver code
 
 let num = 24 ;
 console.log(highestPowerof2(num));
